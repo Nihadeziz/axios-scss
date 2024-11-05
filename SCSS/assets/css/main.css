@@ -1,0 +1,97 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+header .navdiv .fa-bars {
+  display: none;
+}
+header .logo {
+  padding-top: 15px;
+}
+header #navbarScroll ul {
+  gap: 50px;
+}
+header #navbarScroll ul .nav-item .dropdown {
+  position: relative;
+}
+header #navbarScroll ul .hot {
+  position: absolute;
+  color: white;
+  background-color: red;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 5px;
+  left: 400px;
+  bottom: 38px;
+}
+header #navbarScroll ul li a {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+header #navbarScroll ul li a:hover {
+  color: red;
+}
+header .icondiv {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+header .icondiv a:hover {
+  color: red;
+}
+
+.section1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(245, 245, 245);
+}
+.section1 .yazi {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 100px;
+  justify-content: center;
+}
+.section1 .yazi h1 {
+  font-size: 90px;
+}
+.section1 .yazi p {
+  font-size: 25px;
+}
+.section1 .yazi button {
+  width: 180px;
+  height: 50px;
+  color: white;
+  background-color: rgb(77, 76, 76);
+}
+.section1 .yazi button:hover {
+  background-color: red;
+}
+.section1 .img {
+  width: 30%;
+}
+
+.productSection {
+  width: 100%;
+}
+.productSection .newArrivals {
+  padding-top: 100px;
+  padding-left: 200px;
+}
+.productSection .newArrivals h1 {
+  font-size: 50px;
+}
